@@ -1,0 +1,14 @@
+........................................................................ [ 14%]
+........................................................................ [ 29%]
+.............................................ss............s............ [ 44%]
+.............................s.......................................... [ 59%]
+........................................................................ [ 73%]
+........................................................................ [ 88%]
+.......................................................                  [100%]
+- generated xml file: D:\hc\userFeedback\cache\execution-security-high-resume-20261111\evaluation\uf-20261111-sec-04-jwks-retirement\verification\regression-r2\regression.xml -
+=========================== short test summary info ===========================
+SKIPPED [1] tests\test_api_jwk.py:214: Requires cryptography library not installed
+SKIPPED [1] tests\test_api_jwk.py:220: Requires cryptography library not installed
+SKIPPED [1] tests\test_api_jwk.py:388: Requires cryptography library not installed
+SKIPPED [1] tests\test_api_jws.py:564: Requires cryptography library not installed
+483 passed, 4 skipped in 8.20s

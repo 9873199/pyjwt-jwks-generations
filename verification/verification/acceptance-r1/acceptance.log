@@ -1,0 +1,12 @@
+{'entrypoint': 'fetch_data', 'retired_A': 'rejected', 'remaining_B': 'signature verified', 'fetches': 2}
+.{'entrypoint': 'get_jwk_set', 'retired_A': 'rejected', 'remaining_B': 'signature verified', 'fetches': 2}
+...{'invalid_response': 'URLError', 'old_view_valid_before_TTL': True, 'old_view_rejected_after_TTL': True}
+.{'invalid_response': 'NoneType', 'old_view_valid_before_TTL': True, 'old_view_rejected_after_TTL': True}
+.{'invalid_response': 'list', 'old_view_valid_before_TTL': True, 'old_view_rejected_after_TTL': True}
+.{'invalid_response': 'dict', 'old_view_valid_before_TTL': True, 'old_view_rejected_after_TTL': True}
+.{'invalid_response': 'dict', 'old_view_valid_before_TTL': True, 'old_view_rejected_after_TTL': True}
+...{'race': 'expired-known', 'thread_results': ['A2', 'A2'], 'fetches': 2}
+.{'race': 'unknown-cooldown', 'thread_results': ['rejected', 'rejected'], 'fetches': 2}
+..
+- generated xml file: D:\hc\userFeedback\cache\execution-security-high-resume-20261111\evaluation\uf-20261111-sec-04-jwks-retirement\verification\acceptance-r1\acceptance.xml -
+14 passed in 1.02s
