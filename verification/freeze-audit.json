@@ -1,0 +1,14 @@
+{
+  "time": "2026-11-12T00:08:54+08:00",
+  "uid": 118,
+  "run_id": "uf-20261111-sec-04-jwks-retirement",
+  "all_frozen_bytes_unchanged": true,
+  "trajectory_hash_unchanged": true,
+  "explicit_high_start_verified": true,
+  "end_status": "FINISHED",
+  "exit_code": 0,
+  "declared_gitlinks": [],
+  "snapshot_gitlinks_verified": true,
+  "native_source_matches_frozen_copy": true,
+  "this_is_not_a_semantic_or_quality_pass": true
+}

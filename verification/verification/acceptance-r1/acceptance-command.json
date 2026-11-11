@@ -1,0 +1,23 @@
+{
+  "argv": [
+    "D:\\hc\\userFeedback\\cache\\envs\\uf-20261111-sec-04-jwks-retirement\\Scripts\\python.exe",
+    "-m",
+    "pytest",
+    "-q",
+    "-s",
+    "-p",
+    "no:cacheprovider",
+    "D:\\hc\\userFeedback\\cache\\execution-security-high-resume-20261111\\evaluation\\uf-20261111-sec-04-jwks-retirement\\verification\\acceptance-r1\\test_acceptance.py",
+    "--basetemp",
+    "D:\\hc\\userFeedback\\cache\\execution-security-high-resume-20261111\\evaluation\\uf-20261111-sec-04-jwks-retirement\\verification\\acceptance-r1\\tmp-acceptance",
+    "--junitxml",
+    "D:\\hc\\userFeedback\\cache\\execution-security-high-resume-20261111\\evaluation\\uf-20261111-sec-04-jwks-retirement\\verification\\acceptance-r1\\acceptance.xml",
+    "--disable-warnings"
+  ],
+  "cwd": "D:\\hc\\userFeedback\\cache\\execution-security-high-resume-20261111\\evaluation\\uf-20261111-sec-04-jwks-retirement\\frozen-artifact",
+  "PYTHONPATH": "D:\\hc\\userFeedback\\cache\\execution-security-high-resume-20261111\\evaluation\\uf-20261111-sec-04-jwks-retirement\\frozen-artifact;D:\\hc\\userFeedback\\cache\\execution-security-high-resume-20261111\\evaluation\\uf-20261111-sec-04-jwks-retirement\\frozen-artifact\\src",
+  "python": "D:\\hc\\userFeedback\\cache\\envs\\uf-20261111-sec-04-jwks-retirement\\Scripts\\python.exe",
+  "exit_code": 0,
+  "seconds": 3.78,
+  "log": "D:\\hc\\userFeedback\\cache\\execution-security-high-resume-20261111\\evaluation\\uf-20261111-sec-04-jwks-retirement\\verification\\acceptance-r1\\acceptance.log"
+}

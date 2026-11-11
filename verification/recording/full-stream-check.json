@@ -1,0 +1,18 @@
+{
+  "command": [
+    "D:\\hc\\userFeedback\\cache\\.venv\\Lib\\site-packages\\imageio_ffmpeg\\binaries\\ffmpeg-win-x86_64-v9.0.2.exe",
+    "-hide_banner",
+    "-i",
+    "D:\\hc\\userFeedback\\cache\\execution-security-high-resume-20261111\\evaluation\\uf-20261111-sec-04-jwks-retirement\\recording\\r1\\product-run-75s.mp4",
+    "-vf",
+    "blackdetect=d=0.5:pix_th=0.1:pic_th=0.98",
+    "-an",
+    "-f",
+    "null",
+    "-"
+  ],
+  "exit_code": 0,
+  "black_intervals": [],
+  "full_stream_decoded": true,
+  "visual_content_review_still_required": true
+}

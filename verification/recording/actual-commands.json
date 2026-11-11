@@ -1,0 +1,50 @@
+[
+  {
+    "id": "keys-1",
+    "argv": [
+      "D:\\hc\\userFeedback\\cache\\envs\\uf-20261111-sec-04-jwks-retirement\\Scripts\\python.exe",
+      "-B",
+      "D:\\hc\\userFeedback\\cache\\execution-security-high-resume-20261111\\evaluation\\uf-20261111-sec-04-jwks-retirement\\verification\\acceptance-r1\\key_rotation_check.py",
+      "--scenario",
+      "retired"
+    ],
+    "exit_code": 0,
+    "finished_at_seconds": 1.95
+  },
+  {
+    "id": "keys-2",
+    "argv": [
+      "D:\\hc\\userFeedback\\cache\\envs\\uf-20261111-sec-04-jwks-retirement\\Scripts\\python.exe",
+      "-B",
+      "D:\\hc\\userFeedback\\cache\\execution-security-high-resume-20261111\\evaluation\\uf-20261111-sec-04-jwks-retirement\\verification\\acceptance-r1\\key_rotation_check.py",
+      "--scenario",
+      "replaced"
+    ],
+    "exit_code": 0,
+    "finished_at_seconds": 20.26
+  },
+  {
+    "id": "keys-3",
+    "argv": [
+      "D:\\hc\\userFeedback\\cache\\envs\\uf-20261111-sec-04-jwks-retirement\\Scripts\\python.exe",
+      "-B",
+      "D:\\hc\\userFeedback\\cache\\execution-security-high-resume-20261111\\evaluation\\uf-20261111-sec-04-jwks-retirement\\verification\\acceptance-r1\\key_rotation_check.py",
+      "--scenario",
+      "expiry"
+    ],
+    "exit_code": 0,
+    "finished_at_seconds": 37.86
+  },
+  {
+    "id": "keys-4",
+    "argv": [
+      "D:\\hc\\userFeedback\\cache\\envs\\uf-20261111-sec-04-jwks-retirement\\Scripts\\python.exe",
+      "-B",
+      "D:\\hc\\userFeedback\\cache\\execution-security-high-resume-20261111\\evaluation\\uf-20261111-sec-04-jwks-retirement\\verification\\acceptance-r1\\key_rotation_check.py",
+      "--scenario",
+      "concurrent"
+    ],
+    "exit_code": 0,
+    "finished_at_seconds": 56.04
+  }
+]

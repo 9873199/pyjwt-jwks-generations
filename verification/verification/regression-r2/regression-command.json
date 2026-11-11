@@ -1,0 +1,22 @@
+{
+  "argv": [
+    "D:\\hc\\userFeedback\\cache\\envs\\uf-20261111-sec-04-jwks-retirement\\Scripts\\python.exe",
+    "-m",
+    "pytest",
+    "-q",
+    "-p",
+    "no:cacheprovider",
+    "D:\\hc\\userFeedback\\cache\\execution-security-high-resume-20261111\\evaluation\\uf-20261111-sec-04-jwks-retirement\\frozen-artifact\\tests",
+    "--basetemp",
+    "D:\\hc\\userFeedback\\cache\\execution-security-high-resume-20261111\\evaluation\\uf-20261111-sec-04-jwks-retirement\\verification\\regression-r2\\tmp-regression",
+    "--junitxml",
+    "D:\\hc\\userFeedback\\cache\\execution-security-high-resume-20261111\\evaluation\\uf-20261111-sec-04-jwks-retirement\\verification\\regression-r2\\regression.xml",
+    "--disable-warnings"
+  ],
+  "cwd": "D:\\hc\\userFeedback\\cache\\execution-security-high-resume-20261111\\evaluation\\uf-20261111-sec-04-jwks-retirement\\frozen-artifact",
+  "PYTHONPATH": "D:\\hc\\userFeedback\\cache\\execution-security-high-resume-20261111\\evaluation\\uf-20261111-sec-04-jwks-retirement\\frozen-artifact;D:\\hc\\userFeedback\\cache\\execution-security-high-resume-20261111\\evaluation\\uf-20261111-sec-04-jwks-retirement\\frozen-artifact\\src",
+  "python": "D:\\hc\\userFeedback\\cache\\envs\\uf-20261111-sec-04-jwks-retirement\\Scripts\\python.exe",
+  "exit_code": 0,
+  "seconds": 12.34,
+  "log": "D:\\hc\\userFeedback\\cache\\execution-security-high-resume-20261111\\evaluation\\uf-20261111-sec-04-jwks-retirement\\verification\\regression-r2\\regression.log"
+}

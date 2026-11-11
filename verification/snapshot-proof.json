@@ -1,0 +1,17 @@
+{
+  "time": "2026-11-12T00:05:58+08:00",
+  "repository": "9873199/pyjwt-jwks-generations",
+  "visibility": "public",
+  "public_unauthenticated_api_verified": true,
+  "initial_sha": "16231abfd1d8eab4953e8779b3017b859c88565e",
+  "final_sha": "2989f48fe07acf97c54c2098d20e8ade9001cc44",
+  "initial_url": "https://github.com/9873199/pyjwt-jwks-generations/commit/16231abfd1d8eab4953e8779b3017b859c88565e",
+  "final_url": "https://github.com/9873199/pyjwt-jwks-generations/commit/2989f48fe07acf97c54c2098d20e8ade9001cc44",
+  "all_frozen_blob_hashes_verified": true,
+  "initial_is_ancestor": true,
+  "model_commit_chain_preserved": true,
+  "frozen_files": 95,
+  "public_branch": "review-uid118-high-resume-20261111",
+  "automatic_submission": false,
+  "user_review_required": true
+}

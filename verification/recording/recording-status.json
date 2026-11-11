@@ -1,0 +1,10 @@
+{
+  "video": "D:\\hc\\userFeedback\\cache\\execution-security-high-resume-20261111\\evaluation\\uf-20261111-sec-04-jwks-retirement\\recording\\r1\\product-run-75s.mp4",
+  "sha256": "39fc02367bef4b5b34892946f3b7999938dcb287ec565ca62ab47c975c657f6b",
+  "capture_exit_code": 0,
+  "continuous": true,
+  "nominal_seconds": 75,
+  "source": "Fresh actual console process executing frozen-product commands",
+  "helper_is_separate_verification_tool": true,
+  "content_qa": "PENDING"
+}

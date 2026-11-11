@@ -1,0 +1,88 @@
+{
+  "time": "2026-11-12T00:09:42+08:00",
+  "uid": 118,
+  "frozen_commit": "2989f48fe07acf97c54c2098d20e8ade9001cc44",
+  "native_trajectory_sha256": "de1fe5de7cf7082b256955113e38d1033f55d2ca9caf8b8f0c7cd5dcd68250de",
+  "private_reasoning_used": false,
+  "requirements": [
+    {
+      "requirement": "successful refresh retires removed kid and replaces same-kid key",
+      "source": "jwt/jwks_client.py _KeyGeneration, _publish_generation, get_signing_key",
+      "result": "verified",
+      "tests": "verification/acceptance-r1/key_rotation_check.py"
+    },
+    {
+      "requirement": "coherent generation under concurrent refresh/query",
+      "source": "jwt/jwks_client.py RLock and generation-local index",
+      "result": "verified",
+      "tests": "Barrier/Event concurrency cases"
+    },
+    {
+      "requirement": "failed/invalid refresh retains original TTL, expiry fails, unknown kid cooldown",
+      "source": "jwt/jwks_client.py fetch_data, _is_generation_expired and get_signing_key",
+      "result": "verified",
+      "tests": "verification/acceptance-r1"
+    },
+    {
+      "requirement": "direct fetch and get_signing_key, real signed token, deterministic tests, documentation",
+      "source": "tests/test_jwks_generation_cache.py and docs/usage.rst:521",
+      "result": "verified",
+      "tests": "model EC/ES256; independent RSA/RS256"
+    }
+  ],
+  "observable_process": [
+    {
+      "lines": [
+        269,
+        270
+      ],
+      "fact": "old cached A reproduced after successful JWKS refresh"
+    },
+    {
+      "lines": [
+        396
+      ],
+      "fact": "old implementation 9 failed 2 passed; restored implementation 483 passed 4 skipped"
+    },
+    {
+      "lines": [
+        401,
+        404,
+        406
+      ],
+      "fact": "docutils unavailable; fallback checks underline lengths only"
+    },
+    {
+      "lines": [
+        423,
+        435
+      ],
+      "fact": "final regression 483 passed 4 skipped, mypy/ruff success, final summary matches core behavior"
+    }
+  ],
+  "independent_suites": [
+    {
+      "path": "verification/regression-r2",
+      "tests": 487,
+      "passed": 483,
+      "skipped": 4,
+      "failed": 0
+    },
+    {
+      "path": "verification/acceptance-r1",
+      "tests": 14,
+      "passed": 14,
+      "skipped": 0,
+      "failed": 0
+    }
+  ],
+  "excluded_engineering_attempts": [
+    {
+      "path": "regression.log",
+      "reason": "nonexistent tests/test_jwk.py, pytest exit4, no tests collected; evaluator invocation error"
+    }
+  ],
+  "unverified": [
+    "Full RST/Sphinx documentation build was not performed; docutils unavailable in original model run."
+  ]
+}

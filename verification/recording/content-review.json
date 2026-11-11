@@ -1,0 +1,23 @@
+{
+  "time": "2026-11-12T00:09:39+08:00",
+  "duration_seconds": 75.0,
+  "width": 1280,
+  "height": 720,
+  "continuous": true,
+  "full_stream_decoded": true,
+  "black_intervals": [],
+  "reviewed_frames_seconds": [
+    3,
+    35,
+    70
+  ],
+  "content_reviewed": true,
+  "shown_scenarios": [
+    "A retirement and B signature",
+    "same kid rotation",
+    "failed refresh and TTL",
+    "concurrent key selection"
+  ],
+  "helper_is_separate_verification_tool": true,
+  "video_sha256": "39fc02367bef4b5b34892946f3b7999938dcb287ec565ca62ab47c975c657f6b"
+}

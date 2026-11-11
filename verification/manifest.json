@@ -1,0 +1,114 @@
+{
+  "time": "2026-11-12T00:09:42+08:00",
+  "reviewed": true,
+  "frozen_commit": "2989f48fe07acf97c54c2098d20e8ade9001cc44",
+  "files": [
+    {
+      "source": "D:\\hc\\userFeedback\\cache\\execution-security-high-resume-20261111\\evaluation\\uf-20261111-sec-04-jwks-retirement\\Feedback.md",
+      "path": "Feedback.md",
+      "sha256": "07015e8b75dd3409c68758c05ef71f69e23e51b453ee45cdd10a4e488352acf8"
+    },
+    {
+      "source": "D:\\hc\\userFeedback\\cache\\execution-security-high-resume-20261111\\evaluation\\uf-20261111-sec-04-jwks-retirement\\evidence-map.json",
+      "path": "evidence-map.json",
+      "sha256": "dd33b9e6add5f76e7067ad6f2d1bd75fac90ff973e1b267de66919775a3852c2"
+    },
+    {
+      "source": "D:\\hc\\userFeedback\\cache\\execution-security-high-resume-20261111\\evaluation\\uf-20261111-sec-04-jwks-retirement\\environment-reviewed.json",
+      "path": "environment-reviewed.json",
+      "sha256": "e71502dd6e67e6cf6cd0c747fbc7dd9759bb3de4986d924146cdca741422084d"
+    },
+    {
+      "source": "D:\\hc\\userFeedback\\cache\\execution-security-high-resume-20261111\\evaluation\\uf-20261111-sec-04-jwks-retirement\\freeze-audit.json",
+      "path": "freeze-audit.json",
+      "sha256": "d0904b832a50290d7642116c63f6e37201eac6231651576dfad52e381a79d012"
+    },
+    {
+      "source": "D:\\hc\\userFeedback\\cache\\execution-security-high-resume-20261111\\evaluation\\uf-20261111-sec-04-jwks-retirement\\snapshot-proof.json",
+      "path": "snapshot-proof.json",
+      "sha256": "b5ea78484566e9f7199641d11926520432c707bd26b48cfcccf9fafc8b5ac51f"
+    },
+    {
+      "source": "D:\\hc\\userFeedback\\cache\\execution-security-high-resume-20261111\\evaluation\\uf-20261111-sec-04-jwks-retirement\\verification\\regression-r2\\regression-command.json",
+      "path": "verification/regression-r2/regression-command.json",
+      "sha256": "b6b1003abdd27497b4a14baa45faf438d18e9349ea697c68c224cc9da72ac6c6"
+    },
+    {
+      "source": "D:\\hc\\userFeedback\\cache\\execution-security-high-resume-20261111\\evaluation\\uf-20261111-sec-04-jwks-retirement\\verification\\regression-r2\\regression.log",
+      "path": "verification/regression-r2/regression.log",
+      "sha256": "f063c44fd646c3246f5218c0515a7fe8a4e1281cb1b008a6a6b233fe70b67bcd"
+    },
+    {
+      "source": "D:\\hc\\userFeedback\\cache\\execution-security-high-resume-20261111\\evaluation\\uf-20261111-sec-04-jwks-retirement\\verification\\regression-r2\\regression.xml",
+      "path": "verification/regression-r2/regression.xml",
+      "sha256": "62f34c5848add1898d3063e7e85ff68e1ffc12dcbf51deede1c29ef8015bc68c"
+    },
+    {
+      "source": "D:\\hc\\userFeedback\\cache\\execution-security-high-resume-20261111\\evaluation\\uf-20261111-sec-04-jwks-retirement\\verification\\regression-r2\\test-results.json",
+      "path": "verification/regression-r2/test-results.json",
+      "sha256": "13568781b907ce7da8e75953a2f30bdd491f43b6aa6d990f07ef21b3e49e39c4"
+    },
+    {
+      "source": "D:\\hc\\userFeedback\\cache\\execution-security-high-resume-20261111\\evaluation\\uf-20261111-sec-04-jwks-retirement\\verification\\acceptance-r1\\acceptance-command.json",
+      "path": "verification/acceptance-r1/acceptance-command.json",
+      "sha256": "0917104e73e05e4cd7c5138ee7f74bb019db45d24c100d71e84475bc7eaf15b1"
+    },
+    {
+      "source": "D:\\hc\\userFeedback\\cache\\execution-security-high-resume-20261111\\evaluation\\uf-20261111-sec-04-jwks-retirement\\verification\\acceptance-r1\\acceptance.log",
+      "path": "verification/acceptance-r1/acceptance.log",
+      "sha256": "545459cb55d8df16d9d7abe2a81d5833df1ee0c89c4047f79f3ac77577dc9cee"
+    },
+    {
+      "source": "D:\\hc\\userFeedback\\cache\\execution-security-high-resume-20261111\\evaluation\\uf-20261111-sec-04-jwks-retirement\\verification\\acceptance-r1\\acceptance.xml",
+      "path": "verification/acceptance-r1/acceptance.xml",
+      "sha256": "0c88787453cd2b4fb3409566d866f7b60bae89c620fcfd943909ced8587dfd22"
+    },
+    {
+      "source": "D:\\hc\\userFeedback\\cache\\execution-security-high-resume-20261111\\evaluation\\uf-20261111-sec-04-jwks-retirement\\verification\\acceptance-r1\\key_rotation_check.py",
+      "path": "verification/acceptance-r1/key_rotation_check.py",
+      "sha256": "37de441baf7daca4fb187a22976ab184cfbf86b47f1ff5275598d971e4a0689a"
+    },
+    {
+      "source": "D:\\hc\\userFeedback\\cache\\execution-security-high-resume-20261111\\evaluation\\uf-20261111-sec-04-jwks-retirement\\verification\\acceptance-r1\\test-results.json",
+      "path": "verification/acceptance-r1/test-results.json",
+      "sha256": "c9d2072f3104b290a35eb4dbbb1f88a5bbfac2e98da53e0355b2118f15c8bbb7"
+    },
+    {
+      "source": "D:\\hc\\userFeedback\\cache\\execution-security-high-resume-20261111\\evaluation\\uf-20261111-sec-04-jwks-retirement\\verification\\acceptance-r1\\test_acceptance.py",
+      "path": "verification/acceptance-r1/test_acceptance.py",
+      "sha256": "a7c5c0dad3e179451bbceca6ca842a4d2deb93ecebe32adb731921b65c2469a3"
+    },
+    {
+      "source": "D:\\hc\\userFeedback\\cache\\execution-security-high-resume-20261111\\evaluation\\uf-20261111-sec-04-jwks-retirement\\recording\\r1\\actual-commands.json",
+      "path": "recording/actual-commands.json",
+      "sha256": "54dacd0f41f8af7754d5550c58cb3802633fca388144542d790740a8751f63e4"
+    },
+    {
+      "source": "D:\\hc\\userFeedback\\cache\\execution-security-high-resume-20261111\\evaluation\\uf-20261111-sec-04-jwks-retirement\\recording\\r1\\content-review.json",
+      "path": "recording/content-review.json",
+      "sha256": "028c1efd391c06abf0c0112601cde11b61090ccc3431eb53a70be732f881d30e"
+    },
+    {
+      "source": "D:\\hc\\userFeedback\\cache\\execution-security-high-resume-20261111\\evaluation\\uf-20261111-sec-04-jwks-retirement\\recording\\r1\\recording-status.json",
+      "path": "recording/recording-status.json",
+      "sha256": "5f6039ea1932836742d3e9585526b8bc060998e37313e009c45efbe4589f1932"
+    },
+    {
+      "source": "D:\\hc\\userFeedback\\cache\\execution-security-high-resume-20261111\\evaluation\\uf-20261111-sec-04-jwks-retirement\\recording\\r1\\full-stream-check.json",
+      "path": "recording/full-stream-check.json",
+      "sha256": "925b701964a74bdd8193188ed0ea3888dcda7a1fce569f8786300b494bc78bd1"
+    },
+    {
+      "source": "D:\\hc\\userFeedback\\cache\\execution-security-high-resume-20261111\\evaluation\\uf-20261111-sec-04-jwks-retirement\\recording\\r1\\media-metadata.log",
+      "path": "recording/media-metadata.log",
+      "sha256": "104d95a47b240bfa5c01a5caf3483bd2725bc0ae39982c588207f8f38496e19d"
+    }
+  ],
+  "reproduction_readme": "独立验收说明\n\n冻结提交：https://github.com/9873199/pyjwt-jwks-generations/commit/2989f48fe07acf97c54c2098d20e8ade9001cc44\n实际解释器：3.14.3 (tags/v3.14.3:323c59a, Feb  3 2026, 16:04:56) [MSC v.1944 64 bit (AMD64)]\n\n从产物快照取出相同版本，用environment-reviewed.json记录的Python与依赖执行两个verification目录中的真实命令。回归针对整个tests；独立验收key_rotation_check.py使用本地生成RSA密钥、RS256签名、进程内transport与可控时钟/同步屏障。无需外部JWKS服务或账号。录屏调用同一冻结库，验证控制台单独提供。最早的根目录回归命令路径有误，不能算作有效成绩。\n\n每组目录内的 *-command.json 保留真实参数、工作目录、PYTHONPATH、退出码和原始日志位置；test-results.json 与 JUnit XML 保留完整成绩。跨机器运行时把这些绝对路径映射到同一冻结 checkout 和自己的缓存目录，所有 --basetemp、XML 和构建输出均放在缓存里。依赖版本见 environment-reviewed.json。\n这些材料在模型单轮结束后生成，与原轨内测试分开，不代表项目方质检通过。原轨和视频只放各自的飞书附件。\n",
+  "excluded_engineering_attempts": [
+    {
+      "path": "regression.log",
+      "reason": "nonexistent tests/test_jwk.py, pytest exit4, no tests collected; evaluator invocation error"
+    }
+  ]
+}

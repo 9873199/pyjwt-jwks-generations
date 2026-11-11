@@ -1,0 +1,23 @@
+{
+  "time": "2026-11-12T00:09:42+08:00",
+  "container_used": false,
+  "python": "D:\\hc\\userFeedback\\cache\\envs\\uf-20261111-sec-04-jwks-retirement\\Scripts\\python.exe",
+  "dependencies": {
+    "python": "3.14.3 (tags/v3.14.3:323c59a, Feb  3 2026, 16:04:56) [MSC v.1944 64 bit (AMD64)]",
+    "platform": "Windows-11-10.0.26200-SP0",
+    "module_paths": {
+      "jwt": "D:\\hc\\userFeedback\\cache\\execution-security-high-resume-20261111\\evaluation\\uf-20261111-sec-04-jwks-retirement\\frozen-artifact\\jwt\\__init__.py",
+      "jwt.jwks_client": "D:\\hc\\userFeedback\\cache\\execution-security-high-resume-20261111\\evaluation\\uf-20261111-sec-04-jwks-retirement\\frozen-artifact\\jwt\\jwks_client.py"
+    },
+    "packages": {
+      "PyJWT": "2.15.1",
+      "cryptography": "50.0.2",
+      "pytest": "8.4.2"
+    }
+  },
+  "external_dependencies": [
+    "Windows native Python and installed packages; no container",
+    "JWKS transport is local in-process test double; real RSA signatures, no external identity provider"
+  ],
+  "module_import_verified": true
+}

@@ -1,0 +1,18 @@
+{
+  "time": "2026-11-11T23:59:54+08:00",
+  "run_id": "uf-20261111-sec-04-jwks-retirement",
+  "checks": {
+    "acceptance": {
+      "tests": 14,
+      "passed": 14,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0,
+      "failure_cases": [],
+      "exit_code": 0
+    }
+  },
+  "artifact_hashes_unchanged": true,
+  "score": null,
+  "feedback": "PENDING_SEMANTIC_REVIEW"
+}
