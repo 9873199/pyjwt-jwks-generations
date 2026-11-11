@@ -14,6 +14,19 @@ Changed
   ES256 tokens, including rejection of tampered payloads and signatures,
   in `#1211 <https://github.com/jpadilla/pyjwt/pull/1211>`__.
 
+Fixed
+~~~~~
+
+- ``PyJWKClient`` now maintains one generation-based key view instead of
+  two independent caches. Each successfully accepted JWKS is published as a
+  new immutable generation, so a retired ``kid`` is no longer kept alive by
+  the per-key LRU cache (``cache_keys=True``) after the JWKS refreshes, a
+  ``kid`` whose public key rotated always resolves to the new key object,
+  and failed or invalid refreshes leave the previous generation available
+  only until its TTL expires rather than falling back to stale keys
+  indefinitely. Per-key memoization, when enabled, is scoped to a
+  generation and discarded with it.
+
 `v2.15.1 <https://github.com/jpadilla/pyjwt/compare/2.15.0...2.15.1>`__
 -----------------------------------------------------------------------
 

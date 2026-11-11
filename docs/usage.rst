@@ -518,6 +518,30 @@ an error.
 requests. See :class:`~jwt.PyJWKClient` in the API reference for details on
 the caching parameters.
 
+Key retirement and rotation
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+The JWKS cache and the optional per-key cache are two views of the same
+generation-based state rather than independent caches. Every successfully
+accepted JWKS response is published as a new immutable key generation:
+
+- all lookups served while a generation is current return key objects from
+  that single snapshot, so a query can never observe a mix of two endpoint
+  responses,
+- a ``kid`` removed from the JWKS stops being selected as soon as the next
+  response is accepted; a per-key cache entry cannot keep the retired key
+  alive,
+- a ``kid`` whose public key changed resolves to the new key object after
+  the refresh; tokens signed by the old key fail verification against it,
+- a failed download or an invalid response publishes nothing. The previous
+  generation keeps being served until its ``lifespan`` expires, after which
+  the refresh error is raised instead of serving stale keys indefinitely.
+
+Pass ``cache_keys=True`` to additionally memoize individual ``kid`` lookups
+within the current generation. The memo is bounded by
+``max_cached_keys`` and is discarded wholesale whenever a new generation is
+published, so it can never disagree with the JWKS it came from.
+
 OIDC Login Flow
 ---------------
 
